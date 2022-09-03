@@ -1,0 +1,180 @@
+@media (prefers-reduced-motion: no-preference) {
+  *{
+    scroll-behavior: smooth;
+  }
+
+}
+
+#header-img{
+  width: 20%;
+  height: 40px;
+  margin-left: 20px;
+}
+body{
+  margin: 0;
+  background: radial-gradient(
+    closest-corner circle at 85% 15%,
+    #ffcf33,
+      #ffcf33 20%,
+      #ffff66 21%,
+      #bbeeff 100%
+      );
+   background-attachment: fixed;
+}
+body:hover{
+  background: radial-gradient(
+closest-corner circle at 85% 15%,
+   #ccc,
+   #ccc 20%,
+   #445 21%,
+   #223 100%
+  );
+  background-attachment: fixed;
+
+  
+}
+header{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  ;
+}
+nav ul{
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  height: 100%;
+}
+nav ul li{
+  display: flex;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: .8rem;
+}
+a{
+  text-decoration: none;
+  color: orange;
+
+  
+
+
+}
+#nav-bar{
+  width: 80%;
+}
+#email{
+  display:block;
+  margin: 10px auto;
+  border: none;
+  width: 60%;
+
+
+}
+#video{
+  display:block;
+  margin: 10px auto;
+  border: none;
+}
+#submit{
+  background-color: #176bef;
+  border: none;
+  margin: 10px auto;
+  display:block;
+  color: white;
+}
+i{
+  margin-left: 20px;
+  color: #176bef;
+}
+p{
+  display: inline-block;
+  font-family: sans-serif;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #176bef;
+}
+h2,#description{
+  font-family: sans-serif;
+  color: #176bef;
+  text-align: center;
+
+}
+h3{
+  margin-top: 80px;
+text-align: center;
+font-family: sans-serif;
+color: #176bef;
+margin-bottom: 0;
+}
+#description{
+  margin-top: 0;
+}
+.container{
+  display: flex;
+  width: 100%;
+  height: 180px;
+  justify-content: space-evenly;
+}
+.basic,.medium,.premium{
+  display: flex;
+  width: 28%;
+  height: 90%;
+font-family: sans-serif;
+  background-color: #176bef;
+}
+h4{
+  margin-top: 0;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+  color: #176bef;
+  width: 100%;
+  margin-bottom: 0;
+}
+li{
+  font-size: 12px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 5px;
+  
+}
+#price{
+  color: white;
+  background-color: #176bef; 
+}
+#footer{
+  color: #176bef; 
+  text-align: center;
+  font-family: sans-serif;  
+
+}
+
+#contact{
+  padding-top: 20%;
+}
+#form{
+  height: 100vh;
+}
+#features{
+  padding-top: 60px;
+}
+#pricing{
+  height: 60vh;
+  padding-top: 30%;
+}
+.box{
+  width: 100%;
+}
+@media(min-width:500px){
+  #nav-bar{
+    width: 50%;
+    padding-left: 25%;
+  }
+  #header-img{
+  width: 20%;
+  height: 80px;
+  margin-left: 20px;
+}
