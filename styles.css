@@ -77,6 +77,8 @@ a{
   display:block;
   margin: 10px auto;
   border: none;
+  width: 100%;
+
 }
 #submit{
   background-color: #176bef;
